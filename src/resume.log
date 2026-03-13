@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.7)  13 MAR 2026 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.7)  13 MAR 2026 17:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -383,19 +383,19 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 98.
  (C:\Users\ashwi\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<Ashwin_Photo.png, id=31, 1046.40938pt x 1188.69093pt>
-File: Ashwin_Photo.png Graphic file (type png)
-<use Ashwin_Photo.png>
-Package pdftex.def Info: Ashwin_Photo.png  used on input line 106.
-(pdftex.def)             Requested size: 91.04604pt x 106.88254pt.
+<Ashwin_Photo_cropped.png, id=31, 353.06906pt x 470.50781pt>
+File: Ashwin_Photo_cropped.png Graphic file (type png)
+<use Ashwin_Photo_cropped.png>
+Package pdftex.def Info: Ashwin_Photo_cropped.png  used on input line 106.
+(pdftex.def)             Requested size: 69.80983pt x 91.04552pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 140.
  (C:\Users\ashwi\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 164.
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 167.
  (C:\Users\ashwi\AppData\Local\Programs\MiKTeX\tex/latex/marvosym\umvs.fd) [1
 
-{C:/Users/ashwi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./Ashwin_Photo.png>] (resume.aux)
+{C:/Users/ashwi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./Ashwin_Photo_cropped.png>] (resume.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -404,17 +404,17 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 507BCA61F595E6FF2FECA67E93813266;622.
  ) 
 Here is how much of TeX's memory you used:
- 13207 strings out of 467867
- 209041 string characters out of 5418335
+ 13209 strings out of 467867
+ 209133 string characters out of 5418335
  644694 words of memory out of 5000000
- 41893 multiletter control sequences out of 15000+600000
- 677447 words of font info for 69 fonts, out of 8000000 for 9000
+ 41894 multiletter control sequences out of 15000+600000
+ 677821 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,317b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on resume.pdf (1 page, 1431292 bytes).
+Output written on resume.pdf (1 page, 517999 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
  60 words of extra memory for PDF output out of 10000 (max. 10000000)
 
