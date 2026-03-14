@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.7)  13 MAR 2026 17:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.7)  14 MAR 2026 09:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -388,11 +388,11 @@ File: Ashwin_Photo_cropped.png Graphic file (type png)
 <use Ashwin_Photo_cropped.png>
 Package pdftex.def Info: Ashwin_Photo_cropped.png  used on input line 106.
 (pdftex.def)             Requested size: 69.80983pt x 91.04552pt.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 140.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 142.
  (C:\Users\ashwi\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 167.
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 170.
  (C:\Users\ashwi\AppData\Local\Programs\MiKTeX\tex/latex/marvosym\umvs.fd) [1
 
 {C:/Users/ashwi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./Ashwin_Photo_cropped.png>] (resume.aux)
@@ -412,7 +412,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,317b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ashwi/AppData/Local/Programs/MiKTeX/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on resume.pdf (1 page, 517999 bytes).
+Output written on resume.pdf (1 page, 518340 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
