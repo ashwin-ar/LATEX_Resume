@@ -1,0 +1,184 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{lmodern} % Loads a font that supports PDF searching/copying better
+\input{glyphtounicode}
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\setlength{\footskip}{5pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlist[itemize]{
+    itemsep=0.35pt,      % Space between bullets
+    topsep=2pt,       % Space between the text and the first bullet
+    parsep=2pt,       % Space between paragraphs inside a bullet
+    partopsep=0pt
+}
+\begin{document}
+
+%---------- HEADING ----------
+\begin{minipage}[c]{0.7\textwidth}
+    {\Huge \scshape Ashwin Balaji Arun Kumar} \\ \vspace{1pt}
+
+    \small
+    \textbf{E-mail:} \hspace{7pt} \href{mailto: arunkumar.ashwin@outlook.com}{arunkumar.ashwin@outlook.com} \hspace{-5pt}
+    \quad 
+    \textbf{Telefon:} \href{tel:+4917665908289}{+49 17665908289} \\
+    \textbf{LinkedIn:} \href{https://www.linkedin.com/in/ashwinbalaji-ar/}{linkedin.com/in/ashwinbalaji-ar}
+    \quad 
+    \textbf{Github:} \href{https://github.com/ashwin-ar/}{github.com/ashwin-ar/} \\
+    \quad 
+    \textbf{Standort:} Dortmund, Germany
+\end{minipage}
+\hspace{0.05\textwidth} % This creates your LEFT indent
+\begin{minipage}[c]{0.2\textwidth}
+    \flushright
+    \vspace{0pt} 
+    % These two lines control the border thickness and gap
+    \setlength{\fboxsep}{0pt}  % No gap between photo and border
+    \setlength{\fboxrule}{0.5pt} % Thickness of the line
+    \fbox{\includegraphics[trim=0 10 0 0, clip, width=3.2cm, height=3.2cm, keepaspectratio]{{Ashwin_Photo_cropped}.png}}
+\end{minipage}
+
+%----------- EDUCATION -----------
+\vspace{-5pt}
+\section{Education}
+\noindent
+\textbf{Fachhochschule Dortmund} \hfill {\small Dortmund, DE} \\
+{\small \textit{Master of Engineering (M.Eng.) in Eingebettete Systeme Technik} \hfill \small {10/2025 \textbf{--} Present} \\ \vspace{-1pt}
+\textit{(Ergebnisse des ersten Semesters stehen noch aus)}}
+\vspace{3pt}
+
+\noindent
+\textbf{Anna University} \hfill {\small Coimbatore, Indien} \\
+{\small \textit{Bachelor of Engineering (B.E.) in Elektrotechnik und Elektronik} \hfill \small {08/2018 \textbf{--} 06/2022} \\
+\textit{GPA: 1.5 / 4.0 (Deutsches Äquivalent)}}
+
+%----------- SKILLS -----------
+\vspace{-3pt}
+\section{Skills}
+\vspace{2pt}
+
+  \textbf{Sprachen \& Tools:} {C, C++, Python, Assembly(Grundlagen), Matlab/Simulink, Git, SVN} \\ \vspace{2pt}
+  \textbf{Hardware:} {TI C2000 (TMS320F), Renesas RL78, STM32 (F4 Series), ESP32, RP2040} \\ \vspace{2pt}
+  \textbf{Kommunikationsprotokolle:} {I2C, UART, SPI, Modbus, RS485, MQTT} \\ \vspace{2pt}
+  %\textbf{Leistungselektronik:} {Frequenzumrichter, MPPT, AC/DC-Wandler, PV-Anlagen, Batteriemanagements} \\ \vspace{2pt}  %\textbf{Laboratory Tools:} { Multimeters, High frequency DSO, Frequency generator, PV simulators}
+  \textbf{Build Systeme:} {Latex, Linker Skripte, Make, CMake, Makefiles} \\ \vspace{2pt}
+  \textbf{Qualität \& Standards:} {Statische Analyse(Coverity), Fehlermöglichkeits und Einflussanalyse, IEC-Normen} \\ \vspace{2pt}
+  %\textbf{Architektur \& KI:} {Microsoft 365 (Excel-Experte), KI-gestützte Entwicklung (LLM-APIs, Gemini, OpenAI)} 
+
+% --- Work Experience ---
+\vspace{-8pt}
+\section{Professional Experience}
+\textbf{Schneider Electric} \hfill Mumbai, Indien \\
+\textit{Stellvertretender Leiter \textbf{--} Firmware} \hfill 08/2023  \textbf{--}  09/2025 \\
+\begin{itemize}[leftmargin=*]
+    \item Leitung der Firmware Entwicklung für \textbf{3–20 PS Frequenzumrichter} in C, Verwaltung des gesamten Lebenszyklus auf TI und RL78 Mikrocontrollern.
+    \item \textbf{Entwicklung} einer modularen Anwendungsschicht, bei der die Steuerungslogik mithilfe von \textbf{HAL} von der Hardware entkoppelt und die Portabilität optimiert wurde. 
+    \item Entwicklung eines hocheffizienten (98 \%) \textbf{P\&O-MPPT}-Algorithmus für Gleichstrom-Solarpumpensysteme.   
+    \item Optimierung des \textbf{Kurzschlussschutzes} auf \textbf{200 ns} via Trip-Zones zur \textbf{Reduzierung von Feldausfällen}.
+    \item \textbf{CI/CD-Integration statischer Analysen} zur Gewährleistung von 10+ hochwertigen Firmware Releases.
+    \item \textbf{EEPROM-Emulation auf Flash-Basis} als Hardware-Ersatz zur deutlichen Senkung der Stückkosten.    
+    %\item \textbf{Betreuung einen Hochschulabsolventen} im Entwicklung von TI treibern und Git workflows.
+    %\item Entwicklung eines \textbf{Python-UART Telemetrie Tool} zur Behebung von Leistungsproblemen.
+    %\item \textbf{Startfehler behoben} durch \textbf{I2C-Bus-Recovery} bei Arbitrierungs-Hangs
+    %\item \textbf{Modellierte} Antriebsregelkreise in \textbf{Simulink} zur Überprüfung der PID-Stabilität.  
+  \end{itemize}
+\vspace{8pt}
+\noindent
+\textit{Graduate Engineer Trainee \textbf{--} Electromechanical} \hfill 07/2022 \textbf{--} 08/2023 \\
+\begin{itemize}[leftmargin=*]
+    \item Produktpflege der \textbf{6A -- 100A RCBO-Reihe} durch Designänderungen und Reklamationsmanagement.  
+    \item \textbf{Temperatursenkung um 7°C} bei Lasttrennschaltern gem. IEC 60947-3 durch thermische Optimierung.    % \item \textbf{Reduzierung der Durchlassenergie ($I^2t$) um 4 \%} durch Optimierung des Kontaktstellendesigns.
+    \item Identifizierung von über 30 Fehlerfällen in der DFMEA und \textbf{Behebung von 2 Fehlern} mit RPN>144.
+  \end{itemize}
+
+% --- Projects ---
+\section{Projects}
+\textbf{i-Practace \textbf{--} Automatic Tennis ball throwing machine}
+\begin{itemize}[leftmargin=*]
+\item \textbf{Einwerbung von Fördermitteln} in Höhe von \EUR 9.900 durch das Indische Ministerium für Wissenschaft \& Technologie.
+\item Leitung der gesamten POC-Entwicklung, einschließlich Hardwareauswahl, Steuerung von Wechselstrom und Gleichstrommotoren, Sensorintegration sowie Firmware und IoT-Entwicklung.
+\end{itemize}
+
+% --- Patents & Publications ---
+\section{Patents and Publications}
+\textbf{}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Automatisiertes Tennis Spieltrainingsgerät} - \small Indisches Geschmacksmuster Nr. - 367774-001 (Nr. 20/2023)
+    \item \href{https://ieeexplore.ieee.org/document/9675583} {Vergleichende Analyse industrieller IoT Kommunikationsprotokolle und ihrer zukünftigen Ausrichtung} - IEEE XPLORE
+\end{itemize}
+%----------- Languages -----------
+
+\section{Languages}
+  \vspace{2pt}
+  \textbf{German:} {A2 (wird aktiv verbessert)} 
+  \quad
+  \textbf{English:} {C1}
+
+
+\end{document}

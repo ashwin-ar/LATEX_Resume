@@ -1,6 +1,4 @@
-/src/*.aux
-/src/*.log
-/src/*.out
-/src/*.synctex.gz
-src/resume.log
-src/resume.synctex.gz
+**/*.aux
+**/*.log
+**/*.out
+**/*.synctex.gz
