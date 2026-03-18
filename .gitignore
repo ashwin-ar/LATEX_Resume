@@ -2,3 +2,5 @@
 **/*.log
 **/*.out
 **/*.synctex.gz
+src/resume.log
+src/resume.synctex.gz
